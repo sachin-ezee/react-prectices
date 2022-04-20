@@ -8,10 +8,9 @@ class Message extends Component {
         }
     }
     changeMessage() {
-        this.setState(
-            {
-                message: 'Thank You'
-            })
+        this.setState({
+            message: 'Thank You'
+        })
     }
     render() {
         return (

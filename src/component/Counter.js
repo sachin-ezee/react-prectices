@@ -9,7 +9,7 @@ class Counter extends Component {
         }
     }
     
-increment() {
+increment() { 
     // this.setState({
     //     count:  this.state.count + 1
     // },() => {console.log('cllback value', this.state.count);})

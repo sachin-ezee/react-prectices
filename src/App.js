@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import  Greet   from './component/Greet'
-import  Welcome   from './component/Welcome'
-import  Hello   from './component/Hello'
-import  Message   from './component/Message'
+import Greet from './component/Greet'
+import Welcome from './component/Welcome'
+import Hello from './component/Hello'
+import Message from './component/Message'
 import Counter from './component/Counter';
 import FunctionClick from './component/FunctionClick';
 import ClassClick from './component/ClassClick';
@@ -12,24 +12,25 @@ import PerentComponent from './component/PerentComponent';
 import UserGreeting from './component/UserGreeting';
 import NameList from './component/NameList';
 import StyleSheet from './component/StyleSheet';
+import LifecycleA from './component/LifecycleA';
 function App() {
   return (
     <div className="App">
-   
-  <StyleSheet />
-    {/*
-   <NameList />
-   <UserGreeting />
-     <PerentComponent></PerentComponent>
+      <LifecycleA />
+      {/*
+    <StyleSheet />
+      <NameList />
+      <UserGreeting />
+      <PerentComponent></PerentComponent>
       <EventBind></EventBind>
       <FunctionClick   />
-     <ClassClick></ClassClick>
-     <Counter />
-    <Message />
+      <ClassClick></ClassClick>
+      <Counter />
+      <Message />
       <Greet name="sachin" />
       <Greet name="riya" />
       <Greet name="vijay" />
-      <Welcome name="test" surname="devaiya" > 
+      <Welcome name="test" surname devaiya" > 
       <br></br><b>Test Child</b>
       </Welcome>
        <Greet />
